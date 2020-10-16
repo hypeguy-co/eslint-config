@@ -1,0 +1,52 @@
+{
+  "name": "@hypeguy/eslint-config",
+  "version": "0.0.2",
+  "description": "ESLint hypeguy projects",
+  "license": "GPL-3.0",
+  "repository": "hypeguy-co/eslint-config",
+  "author": "wally.nm@gmail.com",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "prepublishOnly": "yarn lint && yarn test",
+    "lint": "eslint ./",
+    "test": "node test/test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "polyglot",
+    "code",
+    "quality",
+    "style",
+    "lint",
+    "linter",
+    "jscs",
+    "jshint",
+    "jslint",
+    "eslint",
+    "validate",
+    "code style",
+    "strict",
+    "check",
+    "checker",
+    "verify",
+    "enforce",
+    "hint"
+  ],
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-react": "^7.19.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=5.16.0"
+  }
+}
